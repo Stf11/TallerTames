@@ -1,1 +1,60 @@
-footer {background:#26313c;}
+body{
+    margin:0;
+}
+
+
+footer {
+    background:#26313c;
+}
+
+header{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+main{
+    margin-top: 1200px;
+}
+
+p{
+    color:black;
+}
+
+.auto{
+    margin: auto;
+    width: 100%;
+}
+
+.h-der{
+    float: right;
+    padding-top: 15px;
+    width: 55%;
+}
+
+.h-izq{
+    padding: 17px 0px 0px 75px;
+    float: left;
+    overflow: hidden;
+    width: 35%;
+}
+
+.h-menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.h-menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.up{
+    background: #3B709C;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+}
