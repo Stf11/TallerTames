@@ -1,10 +1,42 @@
-body{
+*{
     margin:0;
 }
 
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
 footer {
     background:#26313c;
+    width: 100%;
+}
+
+footer p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    color: rgb(29, 59, 89);
+    font-size: 3.8em;
+    font-weight: bolder;
+    margin: 0 1.3em;
+    padding-top: 1.8em;
+}
+
+h2{
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 1.2em;
 }
 
 header{
@@ -13,16 +45,34 @@ header{
 }
 
 main{
+    /* font-size: 1em; */
+    text-align:justify;
 }
 
 p{
-    color:black;
+    color:#000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    line-height: 1.8;
 }
 
 .auto{
     position:absolute;
-    top:-180px;
+    top:-1em;
     width: 100%;
+}
+
+.bloq-der{
+    float:left;
+    margin: 0 2.3em;
+    width: 45%;
+}
+
+.bloq-izq{
+    float:left;
+    margin-left: 5em;
+    width: 43%;
 }
 
 .car {
@@ -30,29 +80,84 @@ p{
     overflow:hidden;
     position:relative;
     width:100%;
-    height:500px;
+    height:645px;
+}
+
+#contacto{
+    background: #35648C;
+    overflow: hidden;
+}
+
+#contacto h1{
+    color: #fff;
+}
+
+#contacto p{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+#facilidades{
+    background: #fff;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+#facilidades h2{
+    color: rgb(29, 59, 89);
+}
+
+.fir-der{
+    float: right;
+    padding-top: 2.5em;
+    width: 63.5%;
+}
+
+.fir-izq{
+    float: left;
+    margin: 4.3em 0 4em 4.8em;
+    width: 20%;
+}
+
+.first{
+    background: #295C88;
+    overflow: hidden;
+    width: 100%;
+}
+
+.first p{
+    color: rgb(245, 245, 245);
+    font-weight:bold;
+    margin-right: 5.5em;
+    padding: 1.5em 0.5em 0 0;
+    text-align: justify;
+    /* text-shadow: -1px -1px 0 #000,-1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000; */
 }
 
 .h-der{
     float: right;
-    padding-top: 15px;
+    margin: 1.7em 0 1.23em 0;
     width: 55%;
 }
 
 .h-izq{
-    padding: 17px 0px 0px 75px;
     float: left;
-    overflow: hidden;
+    padding: 1em 0 0.5em 5em;
     width: 35%;
 }
 
 .h-menu a {
     color: white;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bolder;
-    letter-spacing: 2px;
-    padding-left: 30px;
+    letter-spacing: 0.1em;
+    padding-right: 1.25em;
     text-decoration: none;
+}
+
+.h-menu a:hover {
+    color: rgb(244, 194, 61);
+    text-decoration: underline;
 }
 
 .h-menu li {
@@ -61,16 +166,50 @@ p{
 }
 
 .h-p1{
-    color: white;
+    color: rgb(246, 246, 246);
+    letter-spacing: 0.03em;
+    line-height: 1.1em;
+    margin: 6em 0 5.5em 5em;
     position: absolute;
-    top: 200px;
+    top: 6em;
     z-index: 10;
 }
 
+#servicios{
+    background: #295C88;
+    padding-bottom: 4em;
+    overflow: hidden;
+    transform: skew(0,-1deg);
+}
+
+#servicios h1{
+    transform: skew(0,1deg);
+}
+
+#servicios h2{
+    color: rgb(244, 194, 61);
+    transform: skew(0,1deg);
+}
+
+#servicios p{
+    color: #fff;
+    transform: skew(0,1deg);
+}
+
+#trabajos{
+    background: #fff;
+    overflow: hidden;
+}
+
 .up{
-    background: #3B709C;
-    height: 90px;
+    background: #286193;
     position: fixed;
     width: 100%;
     z-index: 1000;
+}
+
+@media (min-width: 1200px) {
+
+
+
 }
