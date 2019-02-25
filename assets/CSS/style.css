@@ -10,6 +10,7 @@ body{
 
 footer {
     background:#26313c;
+    /* width: 767px; */
 }
 
 footer p{
@@ -90,10 +91,8 @@ p{
     margin:0;
     overflow:hidden;
     position:relative;
-    height:0px;
-    width:100%;
-    padding-top:57%; /* Relación: ancho/alto*100 = 527/928*100 = 56.78% */
-}
+    height:400px;
+    width:100%;}
 
 #contacto{
     background: #35648C;
@@ -240,6 +239,11 @@ p{
         margin: auto;
         padding-left: 3em;
         width: 43%;
+    }
+
+    .car{
+        height:0px;
+        padding-top:57%; /* Relación: ancho/alto*100 = 527/928*100 = 56.78% */
     }
 
     .fir-der{
