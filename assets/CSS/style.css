@@ -10,7 +10,6 @@ body{
 
 footer {
     background:#26313c;
-    /* width: 767px; */
 }
 
 footer p{
@@ -63,12 +62,11 @@ p{
 }
 
 .auto{
-    position:absolute;
-    top:-1em;
-    width: 100%;
-    height:100%;
-    top:0px;
     left:0px;
+    height:100%;
+    position:absolute;
+    top:-3%;
+    width: 100%;
 }
 
 .bloq-der{
@@ -89,10 +87,13 @@ p{
 
 .car {
     margin:0;
+    height:0px;
+    max-height: 630px;
     overflow:hidden;
+    padding-top:60%; /* Relación: ancho/alto*100 = 527/928*100 = 56.78% */
     position:relative;
-    height:400px;
-    width:100%;}
+    width:100%;
+}
 
 #contacto{
     background: #35648C;
@@ -107,6 +108,7 @@ p{
 #contacto p{
     color: #fff;
     font-size: 1.1em;
+    padding-right: 2em;
 }
 
 #facilidades{
@@ -133,7 +135,9 @@ p{
 
 .first{
     background: #295C88;
+    position: relative;
     overflow: hidden;
+    top: -10em;
     width: 100%;
 }
 
@@ -220,6 +224,55 @@ p{
     z-index: 1000;
 }
 
+@media screen and (min-width:1400px){
+
+    h1{
+        margin: auto;
+    }
+
+    .auto{
+        top:-5%;
+    }
+
+    .bloq-der{
+        margin: auto;
+        padding: 0 0 0 1em;
+    }
+
+    .bloq-izq{
+        margin: auto;
+        padding: 0 1em 0 0;
+    }
+
+    .car {
+        height:645px;
+        padding-top:0%;
+    }
+
+    .cont{
+        margin: auto;
+        width: 1300px;
+    }
+
+    .fir-der{
+        margin: auto;
+        padding: 3% 0 5% 0;
+    }
+
+    .fir-izq{
+        margin: auto;
+        position: absolute;
+        top:25%;
+    }
+
+    .h-p1{
+        margin: auto;
+        padding: 3% 0 0 0.5em;
+        width: 1300px;
+    }
+
+}
+
 @media only screen and (min-width:768px) and (max-width:1300px){
 
     h1{
@@ -239,11 +292,6 @@ p{
         margin: auto;
         padding-left: 3em;
         width: 43%;
-    }
-
-    .car{
-        height:0px;
-        padding-top:57%; /* Relación: ancho/alto*100 = 527/928*100 = 56.78% */
     }
 
     .fir-der{
@@ -400,8 +448,10 @@ p{
         width: 35%;
     }
 
+
     .first{
         padding-bottom: 4em;
+        top: -2em;
     }
 
     .h-p1{
@@ -415,6 +465,11 @@ p{
 
     .auto{
         top:3em;
+    }
+
+    .first{
+        padding-bottom: 4em;
+        top: 0em;
     }
 
     .h-p1{
