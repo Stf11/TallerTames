@@ -10,6 +10,7 @@ body{
 
 footer {
     background:#26313c;
+    width: 650px;
 }
 
 footer p{
@@ -150,6 +151,18 @@ p{
     /* text-shadow: -1px -1px 0 #000,-1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000; */
 }
 
+.galeria{
+    margin: auto;
+    padding-top: 1em;
+    width: 85%;
+}
+
+.galeria-mini{
+    height: 250px;
+    margin:auto;
+    width: 270px;
+}
+
 .h-der{
     float: right;
     margin: 0 0 1.23em 0;
@@ -215,6 +228,7 @@ p{
 #trabajos{
     background: #fff;
     overflow: hidden;
+    margin-bottom: 4em;
 }
 
 .up{
